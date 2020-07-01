@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+#app,
+html,
+body {
+	height: 100vh;
+}
+
+*,
+button,
+input {
+	font-family: Roboto, 'san-serif';
+	outline: none;
+}
+
+#notify-container {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.light {
+	--primary: #ff1d58;
+	--secondary: #f75990;
+	--tertiary: #fff685;
+	--quaternary: #00ddff;
+	--quinary: #0049b7;
+
+	--white: #ffffff;
+}
+
+.dark {
+	--primary: #36393f;
+	--secondary: #2f3136;
+	--tertiary: #00ddff;
+	--quaternary: #292b2f;
+	--quinary: #393d42;
+	--senary: #828389;
+
+	--white: #fff;
+}
+:root {
+	--negative: #f84a4b;
+	--positive: #21ba45;
+}
