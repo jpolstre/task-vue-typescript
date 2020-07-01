@@ -1,15 +1,16 @@
-const prefixer = require('autoprefixer')
+// const prefixer = require('autoprefixer')
 
 module.exports = {
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: [
-          prefixer({
-            prefix: 'b-'
-          })
-        ]
-      }
-    }
-  }
+  publicPath: '',
+  // css: {
+  //   loaderOptions: {
+  //     postcss: {
+  //       plugins: [
+  //         prefixer({
+  //           prefix: 'b-'
+  //         })
+  //       ]
+  //     }
+  //   }
+  // }
 }
