@@ -1,4 +1,7 @@
-# todo
+# TaskApp
+Todo application whit Vue TypeScript vue-property-decorator and vuex-module-decorators
+
+ [Live Preview](https://jpolstre.github.io/task-vue-typescript/)
 
 ## Project setup
 ```
