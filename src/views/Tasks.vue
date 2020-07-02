@@ -88,6 +88,8 @@ export default class Tasks extends Vue {
         if (id !== undefined) {
           const notify = await taskModule.DELETE_TASK(id);
           new Notify(notify);
+          this.reset();
+
         }
       },
       onCancel: () => {
