@@ -81,8 +81,8 @@ export default class Tasks extends Vue {
 
     new Dialog({
       type: ETypeDialog.CONFIRM,
-      title: "Eliminar Tarea?",
-      content: `Seguro Eliminar la tarea <strong>${task.name}</strong> ?`,
+      title: "Eliminar Tarea",
+      content: `¿ Seguro Eliminar la tarea <strong>${task.name}</strong> ?`,
       onOk: async () => {
         const id = task.id;
         if (id !== undefined) {
